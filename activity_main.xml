@@ -6,7 +6,7 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/darker_gray"
+    android:background="@android:color/background_light"
     android:orientation="horizontal">
 
     <LinearLayout
@@ -24,7 +24,7 @@
             android:fontFamily="sans-serif-smallcaps"
             android:textColor="#616161"
             android:textSize="18sp"
-            android:text="Team A" />
+            android:text="Chiefs" />
 
         <TextView
             android:id="@+id/team_a_score"
@@ -54,10 +54,16 @@
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="80dp"
             android:layout_margin="8dp"
             android:onClick="addOneForTeamA"
-            android:text="Free throw" />
+            android:text="Free throw"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            android:onClick="minusOneForTeamA"
+            android:text="Minus 1"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
     <LinearLayout
@@ -105,10 +111,16 @@
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="80dp"
             android:layout_margin="8dp"
             android:onClick="addOneForTeamB"
-            android:text="Free throw" />
+            android:text="Free throw"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            android:onClick="minusOneForTeamB"
+            android:text="Minus 1"
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
 
@@ -121,4 +133,5 @@
         android:text="Reset"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"/>
+
 </RelativeLayout>
