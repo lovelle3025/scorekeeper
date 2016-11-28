@@ -1,0 +1,26 @@
+*/ start at line #57 to replace back in the file
+*Search for Debug.class
+
+public static void startMethodTracing() {
+        throw new RuntimeException("Stub!");
+    }
+
+    public static void startMethodTracing(String tracePath) {
+        throw new RuntimeException("Stub!");
+    }
+
+    public static void startMethodTracing(String tracePath, int bufferSize) {
+        throw new RuntimeException("Stub!");
+    }
+
+    public static void startMethodTracing(String tracePath, int bufferSize, int flags) {
+        throw new RuntimeException("Stub!");
+    }
+
+    public static void startMethodTracingSampling(String tracePath, int bufferSize, int intervalUs) {
+        throw new RuntimeException("Stub!");
+    }
+
+    public static void stopMethodTracing() {
+        throw new RuntimeException("Stub!");
+    }
